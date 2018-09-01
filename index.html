@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Bootstrap/dist/js/jquery-3.2.1.js"></script>
+    <script src="Bootstrap/dist/js/bootstrap.js"></script>
+    <link href="Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="frontpage_S.css" rel="stylesheet">
+    <link href="index_frontpage2.css" rel="stylesheet">
+    <link href="socialpage.css" rel="stylesheet">
+<link href="footermap.css" rel="stylesheet">
+    <link href="alumni_Stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheetforheader.css">
+    <link rel="stylesheet" href="styleforfooter.css">
+    <script>
+        window.onload=()=>{
+            // alert('Recommended To open as Desktop View For now')
+            let dataids=$("div[data-id='2']")[0];
+            console.log(dataids)
+            console.log(dataids.classList)
+            dataids.classList.add("lmn")
+            console.log(dataids.classList)
+            dataids.classList.remove("lmn")
+            console.log(dataids.classList)
+        }
+        function moveprev() {
+            let slidediv = $('.innerslidediv')
+            slidediv[0].style.transform="translate(0,0)";
+            let dataid1=$("div[data-id='1']")[0];
+
+
+            dataid1.classList.remove("nonactive")
+            dataid1.classList.add('activediv')
+            let dataid2=$("div[data-id='2']")[0];
+            setTimeout(()=>{
+                dataid2.classList.remove("activediv")
+                dataid2.classList.add('nonactive')
+            },1000)
+
+        }
+        function movenext(innerdivId) {
+        //    Make this function Generic for all the movable divs
+        let slidediv = $(".innerslidediv")
+            console.log(slidediv)
+            slidediv[innerdivId-1].style.transform="translate(-400px,0)";
+        let dataid1=$("div[data-id='1']")[0];
+            setTimeout(()=>{
+                dataid1.classList.remove("activediv")
+                dataid1.classList.add('nonactive')
+            },1000)
+
+            let dataid2=$("div[data-id='2']")[0];
+            dataid2.classList.remove("nonactive")
+            dataid2.classList.add('activediv')
+       // dataids[0].removeClass('activediv');
+       // dataids[0].addClass('nonactive');
+       // dataids[1].class('activediv')
+
+        }
+    </script>
+</head>
+<body>
+<div id="headertop">
+    <div id="nieclogo">
+        <img src="files/logo-adgitm-small2.jpg" alt="ADGITM">
+    </div>
+
+    <div class="social-links">
+        <ul>
+            <li>
+                <a  href="#">Contact us on:</a>
+            </li>
+            <li>
+                <a class="icon" href="https://m.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            </li>
+
+            <li>
+                <a class="icon" href="https://twitter.com/login"><i class="fab fa-twitter-square"></i></a>
+            </li>
+
+            <li>
+                <a class="icon" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            </li>
+
+            <li>
+                <a class="icon" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+            </li>
+
+            <li>
+                <a class="icon" href="https://www.gmail.com/"> <i class="fas fa-envelope-square"></i></a>
+            </li>
+
+            <li>
+                <a class="icon" href=""><i class="fas fa-phone-square"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="headerbottom">
+    <div class="menu">
+
+        <div class="dropdown-own">
+            <button class="dropbtn">Projects<i class="fa fa-angle-down"></i></button>
+            <div class="dropdown-content">
+                <a href="">Student Enrichment Fund</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button class="dropbtn">Directory<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">Search Alumni</a>
+                <a href="">Search Faculty</a>
+                <a href="">By Map</a>
+                <a href="">By Resources</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button class="dropbtn">Careers<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">Jobs</a>
+                <a href="">Internship</a>
+                <a href="">Mentorship</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button style="overflow: visible" class="dropbtn">Events<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">All Events</a>
+                <a href="">Alumni Calender</a>
+                <a href="">Chapter</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button class="dropbtn">Benefits<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">Online Courses</a>
+                <a href="">Alumni Services</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button class="dropbtn">More<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">Glimpse of Alumni</a>
+                <a href="">News and Updates</a>
+                <a href="">Volunteer Opportunities</a>
+                <a href="">FAQs</a>
+            </div>
+        </div>
+
+        <div class="dropdown-own">
+            <button class="dropbtn">Login<i class="fa fa-angle-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="">Login</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Header ends here-->
+<div class="container-fluid">
+    <div class="row">
+        <div id="imagediv" >
+
+            <!--<div id="centretext" ><span id="centertextspan">Welcome To Alumni</span></div>-->
+        </div>
+    </div>
+    <!--Row for events and news-->
+    <div class="row justify-content-center eventdivs">
+        <!--Div for news and updates-->
+        <div class="col-sm-12 col-md-3 ml-3 mr-3 mt-sm-3 mb-sm-2 dynamicdivs">
+            <div class="row justify-content-center dynamicdivheading p-3">
+                <div class="col-4 ">News</div>
+            </div>
+            <div class="row p-3 dynamicdivrow">
+                <div class="col-12 p-2 newsdate">
+                    date
+                </div>
+                <div class="col-12 p-3 newsdescription">Event Description</div>
+            </div>
+            <div class="row p-3 dynamicdivrow">
+                <div class="col-12 p-2">
+                    date
+                </div>
+                <div class="col-12 p-3">News Description</div>
+            </div>
+            <div class="row p-2 justify-content-center">
+                <a href="">View All</a>
+            </div>
+        </div>
+        <!--div for news and updates end here-->
+        <!--Div for events-->
+        <div class="col-sm-12 col-md-3 ml-3 mr-3 mt-sm-3 mb-sm-2 dynamicdivs ">
+            <div class="row justify-content-center dynamicdivheading p-3">
+                <div class="col-4">Events</div>
+            </div>
+            <div class="row dynamicdivrow">
+               <div class="col-5 p-3 eventdate">
+                   <div class="col-12 newsdate">
+                       Day
+                   </div>
+                   <div class="col-12 p-2">
+                       23/4/2018
+                   </div>
+               </div>
+                <div class="col-7 p-3">
+                    <div class="col-12 p-1">
+                        Event Description
+                    </div>
+                    <div class="col-12 newsdate p-1">venue</div>
+                    <div class="col-12 p-1">Place</div>
+                    </div>
+            </div>
+
+            <div class="row dynamicdivrow">
+                <div class="col-5 p-3 eventdate">
+                    <div class="col-12 newsdate">
+                        Day
+                    </div>
+                    <div class="col-12 p-2">
+                        23/4/2018
+                    </div>
+                </div>
+                <div class="col-7 p-3">
+                    <div class="col-12 p-1">
+                        Event Description
+                    </div>
+                    <div class="col-12 newsdate p-1">venue</div>
+                    <div class="col-12 p-1">Place</div>
+                </div>
+            </div>
+
+            <div class="row p-2 justify-content-center">
+                <a href="">View All</a>
+            </div>
+        </div>
+
+        <!--Login / Sign Up From Different Sources-->
+        <!--Authentication - -->
+        <div class="col-sm-12 col-md-3 ml-3 mr-3 mt-sm-3 mb-sm-2 dynamicdivs">
+            <div class="row justify-content-center dynamicdivheading p-3">
+                <div class="col-4 ">SignUp/Register</div>
+            </div>
+            <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-5 col-md-8 fbook"><i class="fab fa-facebook-f"></i> Connect with facebook </div> </div>
+            <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-5 col-md-8 linkdin"><i class="fab fa-linkedin"></i> Connect with LinkedIn</div> </div>
+            <div class="row p-2 mt-2 justify-content-center" style="border-bottom: 1px gray solid"><div class="col-5 col-md-8  emailconnect">Connect with Email</div> </div>
+            <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-8 verifystatement">Login with any medium will lead to verification by mentors/admin</div> </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-5" style="margin-top: 70px;border-top: 2px gray solid">
+    <div class="row justify-content-center m-4 mb-2" >
+      <div class="col-10 sucessheadbackground" align="center"> <span id="successhead" > Our Success Stories</span> </div>
+    </div>
+    <div class="row ml-5 mr-5">
+        <div class="col-10">
+        <div class="successstorydiv">
+            <div class="successstorymover">
+              <!--Cse Dept-->
+                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise">
+                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >CSE</div>
+            <div class="alumni-div">
+        <div id="carouselCSE"  class=" carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <div class="successstoryitem">
+                    <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                        <div class="successstoryitem-content">
+                            The text behind the picture will be displayed here.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="successstoryitem">
+                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                        <div class="successstoryitem-content">
+                            The text behind the picture will be displayed here.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="successstoryitem">
+                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                        <div class="successstoryitem-content">
+                            The text behind the picture will be displayed here.
+                        </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev movementbtns" href="#carouselCSE" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next movementbtns" href="#carouselCSE" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+                <!--IT branch-->
+                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise" style="left: 300px">
+                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >IT</div>
+                    <div class="alumni-div">
+                        <div id="carouselIT"  class=" carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" >
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev movementbtns" href="#carouselIT" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next movementbtns" href="#carouselIT" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ECE Branch-->
+                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise" style="left: 600px">
+                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >ECE</div>
+                    <div class="alumni-div">
+                        <div id="carouselECE"  class=" carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" >
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev movementbtns" href="#carouselECE" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next movementbtns" href="#carouselECE" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--End Of success Mover Here-->
+            <div id="successmoverprevbtn"><span><i class="fa fa-arrow-left"></i> </span></div>
+            <div id="successmovernextbtn"><span><i class="fa fa-arrow-right"></i> </span></div>
+
+        </div>
+        </div>
+</div>
+    <div class="row justify-content-center m-4 mb-2" >
+        <div class="col-10 sucessheadbackground" style="height: 40px" align="center"> </div>
+    </div>
+</div>
+
+
+<!--Cards For alumni  Students and needs-->
+<div class="container-fluid">
+    <div class="row justify-content-center p-3 m-3 ">
+        <div class="col-12 col-md-4 p-2"><span class="slidermainheading">From The Desk</span></div>
+    </div>
+    <!--Outer Row For dynamic Divs-->
+    <div class="row justify-content-center mt-5">
+        <!--Alumni Needs-->
+      <div class="col-12 col-md-6 col-lg-5 mr-3 ml-3 mt-3 owncard">
+        <div class="row slidingdivshead">
+            <!--Alumni Icon Div-->
+            <div class="col-2" >
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+                                            <g>
+                                            <path fill="#231F20" d="M59,5H1C0.4,5,0,5.4,0,6v38c0,0.6,0.4,1,1,1h15v9c0,0.4,0.2,0.7,0.6,0.9C16.7,55,16.9,55,17,55
+                                            c0.2,0,0.5-0.1,0.6-0.2L29.1,45H59c0.6,0,1-0.4,1-1V6C60,5.4,59.6,5,59,5z M58,43H28.7c-0.2,0-0.5,0.1-0.6,0.2L18,51.8V44
+                                            c0-0.6-0.4-1-1-1H2V7h56V43z"></path>
+                                            <path fill="#231F20" d="M13.6,17h22.7c0.6,0,1-0.4,1-1s-0.4-1-1-1H13.6c-0.6,0-1,0.4-1,1S13.1,17,13.6,17z"></path>
+                                            <path fill="#231F20" d="M13.6,25.2h32.8c0.6,0,1-0.4,1-1c0-0.6-0.4-1-1-1H13.6c-0.6,0-1,0.4-1,1C12.6,24.7,13.1,25.2,13.6,25.2z"></path>
+                                            <path fill="#231F20" d="M13.6,33h32.8c0.6,0,1-0.4,1-1s-0.4-1-1-1H13.6c-0.6,0-1,0.4-1,1S13.1,33,13.6,33z"></path>
+                                            </g>
+                                        </svg>
+            </div>
+           <div class="col-7"> Alumni Needs </div>
+        </div>
+          <!--Icon + Heading ends here-->
+          <div class="row">
+              <div class="col-12 slidablediv">
+                  <!--Every item position goes as per innerslidediv IMP-->
+                  <div class="innerslidediv" data-innerdivvalue="1" style="width: 400px">
+                      <div data-id="1" class="activediv">
+                               <p class="slidedescription">Description of the need</p>
+                                <div class="sliderimgs" style="background-image: url('files/person3.jpg')"></div>
+                                <div class="sliderperson">
+                                    <span>Name</span>
+                                    <div>Designation</div>
+                                </div>
+                                <div class="replybtn"><button class="btn btn-info">Reply</button> </div>
+                      </div>
+
+                      <div class="nonactive slidedata" data-id="2" style="transform: translate(400px,0)">
+                         <!--Define 2nd here -->
+                          <p class="slidedescription">Description of the need</p>
+                          <div class="sliderimgs" style="background-image: url('files/person4.jpg')"></div>
+                          <div class="sliderperson">
+                              <span>Name</span>
+                              <div>Designation</div>
+                          </div>
+                          <div class="replybtn"><button class="btn btn-info">Reply</button> </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row colorchange">
+              <div class="col-6 m-0 borderclass"></div>
+              <div class="col-6"></div>
+          </div>
+              <div class="row p-3 justify-content-center slidingdivlinks">
+              <div class="col-3">
+                  <div class="prev-item"><i class=" btn fa fa-arrow-left" onclick="moveprev(1)"></i> </div>
+              </div>
+                  <div class="col-4">
+                      <a href="">View All</a>
+                  </div>
+              <div class="col-3">
+                  <div class="next-item"><i class=" btn fa fa-arrow-right" onclick="movenext(1)"></i> </div>
+              </div>
+              </div>
+
+      </div>
+
+        <!--Popular Mentors-->
+       <div class="col-12 col-md-6 ml-3 mr-3 col-lg-5 mt-3 owncard">
+           <div class="row slidingdivshead">
+               <!--Alumni Icon Div-->
+               <div class="col-2" >
+                   <!--Icon-->
+                   <svg width="29px" height="29px" viewBox="0 0 36 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                       <defs>
+                           <polygon id="path-1" points="14 0.514169377 14 24.5555556 0.152376 24.5555556 0.152376 0.514169377 14 0.514169377"></polygon>
+                       </defs>
+                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                           <g id="Group-6" transform="translate(-19.000000, -18.000000)">
+                               <g id="Page-1" transform="translate(19.000000, 18.000000)">
+                                   <path d="M22.8,27.7761389 L1.2,27.7761389 L1.2,21.7535186 C1.6656,21.0963052 5.3226,18.9202802 9.2232,17.3298728 C9.4506,17.2368593 9.6,17.0116689 9.6,16.7613893 L9.6,13.7017366 C9.6,13.4349349 9.4302,13.1987297 9.1812,13.1179549 C9.1692,13.1142833 8.0088,12.6167838 8.0088,9.87043953 C8.0088,9.53265388 7.755,9.26095672 7.4238,9.26095672 C7.26,9.19670402 6.9414,8.49665548 7.0638,7.82414382 C7.1424,7.39640438 7.3224,7.39640438 7.4088,7.39640438 C7.74,7.39640438 8.0088,7.1222595 8.0088,6.78447385 C8.0088,6.57825325 7.9284,6.37754004 7.731,5.90268194 C7.5306,5.42109261 6.921,3.95551898 7.176,3.56327151 C7.2348,3.47270579 7.4688,3.46536262 7.539,3.46536262 C7.6818,3.46536262 7.8516,3.48616826 8.0448,3.52594374 C8.3598,3.59386803 8.6694,3.39315482 8.7474,3.07495094 C9.0588,1.80335929 11.0172,1.22386107 12.7044,1.22386107 C14.3916,1.22386107 16.3494,1.80274736 16.6614,3.07495094 C16.9488,4.24618598 16.4574,5.37458589 16.1634,6.04832141 C16.0212,6.37509232 15.9354,6.57213395 15.9354,6.78447385 C15.9354,7.1222595 16.2042,7.39640438 16.5354,7.39640438 C16.6104,7.39640438 16.7652,7.39640438 16.8384,7.79599502 C16.962,8.46728282 16.6338,9.19670402 16.4874,9.258509 C16.1556,9.258509 15.8874,9.53265388 15.8874,9.87043953 C15.8874,12.6167838 14.8044,13.1222384 14.8074,13.1222384 C14.5638,13.2060729 14.4,13.4392184 14.4,13.7017366 L14.4,16.7613893 C14.4,17.0116689 14.5494,17.2368593 14.7768,17.3298728 C18.6774,18.9202802 22.3344,21.0963052 22.8,21.7535186 L22.8,27.7761389 Z M20.913,18.9655631 C19.3296,18.0556224 17.3712,17.0924437 15.6,16.34956 L15.6,14.0560444 C16.131,13.6686924 16.9818,12.6834842 17.0778,10.3208204 C17.7048,9.95243823 18.0642,9.01373679 18.0642,8.1001245 C18.0642,7.61547551 17.9574,7.18590028 17.7552,6.85790551 C17.6388,6.66820704 17.4918,6.51522441 17.3226,6.40262919 C17.6634,5.61140301 18.1896,4.2645439 17.826,2.77816463 C17.3232,0.727585407 14.7528,0 12.7044,0 C10.8426,0 8.5488,0.600915786 7.7694,2.25129244 C6.8466,2.1803085 6.3846,2.56582473 6.1752,2.8877002 C5.5644,3.82823743 6.2034,5.364795 6.6264,6.38121162 C6.627,6.38304741 6.6282,6.38549514 6.6288,6.38794286 C6.4446,6.5029858 6.2862,6.66269967 6.1602,6.86218902 C5.9496,7.19569116 5.8386,7.63260957 5.8386,8.12582558 C5.8386,9.02842312 6.1956,9.95610981 6.8184,10.3214323 C6.9234,12.6779768 7.8438,13.672364 8.4,14.0603279 L8.4,16.34956 C6.6288,17.0924437 4.6704,18.0556224 3.087,18.9655631 C0,20.7383258 0,21.3135405 0,21.6568336 L0,28.3880695 C0,28.7258551 0.2688,29 0.6,29 L23.4,29 C23.7312,29 24,28.7258551 24,28.3880695 L24,21.6568336 C24,21.3135405 24,20.7383258 20.913,18.9655631 L20.913,18.9655631 Z" id="Fill-1" fill="#FFFFFF"></path>
+                                   <g id="Group-5" transform="translate(22.000000, 4.000000)">
+                                       <mask id="mask-2" fill="white">
+                                           <use xlink:href="#path-1"></use>
+                                       </mask>
+                                       <g id="Clip-4"></g>
+                                       <path d="M10.276616,15.0229092 C9.316216,14.7066816 8.241576,14.3533211 7.280056,13.9640257 L7.280056,12.3733049 C7.874776,12.0445 8.916376,11.196435 9.044056,9.25714499 C9.520056,8.88102575 9.766456,8.01738889 9.766456,7.16213686 C9.766456,6.44583333 9.579976,5.88405014 9.259096,5.55644309 C9.595656,4.91799864 10.102456,3.80461382 9.734536,2.62295257 C9.249576,1.06636992 7.243656,0.514169377 5.672856,0.514169377 C4.268936,0.514169377 2.516696,0.955570461 1.814456,2.16178726 C1.279656,2.12705014 0.875336,2.28216938 0.606536,2.62175474 C0.007896,3.37818564 0.443576,4.67124526 0.737576,5.49056233 C0.595896,5.6091477 0.475496,5.76726152 0.383096,5.95891463 C0.192696,6.35599593 0.152376,6.82315041 0.152376,7.14536721 C0.152376,8.01199864 0.404936,8.88641599 0.891576,9.26193631 C1.025976,11.0449092 2.028376,12.0031748 2.800056,12.3924702 L2.800056,13.7753672 C2.800056,14.1059688 3.050936,14.3742832 3.360056,14.3742832 C3.669176,14.3742832 3.920056,14.1059688 3.920056,13.7753672 L3.920056,11.9786192 C3.920056,11.7049146 3.746456,11.4659472 3.498936,11.3982696 C3.483816,11.3940772 1.996456,10.9622588 1.996456,8.85347561 C1.996456,8.55521545 1.792616,8.30786314 1.524936,8.26234553 C1.410136,8.11201762 1.245496,7.5831748 1.276296,7.00881436 C1.297576,6.60634282 1.404536,6.448229 1.436456,6.43205827 C1.584856,6.43205827 1.727656,6.36857317 1.832376,6.25657588 C1.937656,6.14397967 1.996456,5.99185501 1.996456,5.83314228 C1.996456,5.6540664 1.935416,5.48397425 1.813336,5.1449878 C1.340696,3.83276287 1.389976,3.48599051 1.461656,3.3955542 C1.477336,3.37519106 1.629656,3.31110705 2.030616,3.3991477 C2.307816,3.46203388 2.584456,3.28894715 2.674056,3.0020664 C2.907016,2.25461924 4.168136,1.71200136 5.672856,1.71200136 C7.178136,1.71200136 8.439256,2.25461924 8.672216,3.00146748 C8.919736,3.796229 8.462216,4.63950271 8.188936,5.14259214 C8.032136,5.43246748 7.937496,5.60675203 7.937496,5.83314228 C7.937496,6.1637439 8.179416,6.42606911 8.489096,6.42606911 C8.531656,6.4596084 8.630776,6.66683333 8.644776,7.06511247 C8.664936,7.63707724 8.508696,8.12100136 8.405096,8.26294444 C8.139656,8.30965989 7.937496,8.55641328 7.937496,8.85347561 C7.937496,10.9353076 6.620376,11.3850935 6.570536,11.4012642 C6.328056,11.4731341 6.160056,11.709107 6.160056,11.9786192 L6.160056,14.3742832 C6.160056,14.6192398 6.299496,14.839042 6.512296,14.9300772 C7.600376,15.395435 8.846936,15.8056924 9.947336,16.1680366 C11.038216,16.5267873 12.508216,17.0107114 12.880056,17.3065759 L12.880056,23.358023 L5.600056,23.358023 C5.290936,23.358023 5.040056,23.6257385 5.040056,23.956939 C5.040056,24.2875407 5.290936,24.555855 5.600056,24.555855 L13.440056,24.555855 C13.749176,24.555855 14.000056,24.2875407 14.000056,23.956939 L14.000056,17.1604404 C14.000056,16.2830285 12.924856,15.894332 10.276616,15.0229092" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                                   </g>
+                               </g>
+                           </g>
+                       </g>
+                   </svg>
+               </div>
+               <div class="col-7"> Popular Mentors </div>
+           </div>
+           <!--Icon + Heading ends here-->
+           <div class="row">
+               <div class="col-12 slidablediv">
+                   <!--Every item position goes as per innerslidediv IMP-->
+                   <div class="innerslidediv" data-innerdivvalue="2" style="width: 400px">
+                       <div data-id="1" class="activediv">
+                           <div class="sliderimgs2"></div>
+                           <div class="sliderperson2">
+                               <span>Name</span>
+                               <p style="color: gray;font-size: 13px">Year Pass Out</p>
+                               <div>Designation</div>
+                           </div>
+                           <div class="contactmentor">
+                               <div class="contactfor"> Contact for:</div>
+                               <div>ksjafjakcajcbja</div>
+                           </div>
+                           <div class="reqbtn"><button class="btn btn-info">Send Request</button> </div>
+                       </div>
+
+                       <div class="nonactive slidedata" data-id="2" style="transform: translate(400px,0)">
+                           <!--Define 2nd here -->
+                           <p class="slidedescription">Description of the need</p>
+                           <div class="sliderimgs" style="background-image: url('files/Kayla_Person1.jpg')"></div>
+                           <div class="sliderperson">
+                               <span>Name</span>
+                               <div>Designation</div>
+                           </div>
+                           <div class="replybtn"><button class="btn btn-info">Reply</button> </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="row colorchange">
+               <div class="col-6 m-0 borderclass"></div>
+               <div class="col-6"></div>
+           </div>
+           <div class="row p-3 justify-content-center slidingdivlinks">
+               <div class="col-3">
+                   <div class="prev-item"><i class=" btn fa fa-arrow-left" onclick="moveprev(1)"></i> </div>
+               </div>
+               <div class="col-4">
+                   <a href="">View All</a>
+               </div>
+               <div class="col-3">
+                   <div class="next-item"><i class=" btn fa fa-arrow-right" onclick="movenext(1)"></i> </div>
+               </div>
+           </div>
+
+       </div>
+
+        <!--Popular Alumni-->
+        <div class="col-12 col-md-6 col-lg-5 mr-3 ml-3 mt-3 owncard">
+            <div class="row slidingdivshead">
+                <!--Alumni Icon Div-->
+                <div class="col-2" >
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+                                            <g>
+                                                <path fill="#231F20" d="M52.7,42.3l-9-2.5c-0.1,0-0.1,0-0.2,0l-4.9-1.4c2.6-2.2,4.7-5.2,4.9-8.8c2-0.6,3.1-2.9,3.1-5
+                                                    c0-1.2-0.3-2.2-0.8-3c-0.5-0.7-1.1-1.2-1.8-1.4V15V9.7L59.2,7C59.7,6.9,60,6.5,60,6c0-0.5-0.3-0.9-0.8-1l-29-5c-0.1,0-0.2,0-0.3,0
+                                                    l-29,5C0.3,5.1,0,5.6,0,6c0,0.5,0.3,0.9,0.8,1L6,7.9v8L3,32.8c-0.1,0.3,0,0.6,0.2,0.8C3.4,33.9,3.7,34,4,34h7
+                                                    c0.3,0,0.6-0.1,0.8-0.4c0.2-0.2,0.3-0.6,0.2-0.9L8,15.9V8.3l8,1.4V15v5.1c-0.7,0.2-1.4,0.7-1.8,1.4c-0.5,0.8-0.8,1.9-0.8,3
+                                                    c0,2.2,1.1,4.5,3.1,5c0.3,3.6,2.4,6.6,4.9,8.8L7.2,42.3C2.9,43.9,0,48.1,0,52.7V60h60v-7.3C60,48.1,57.1,43.9,52.7,42.3z M5.2,32
+                                                    l1.9-11l2.6,11H5.2z M30,2l23.2,4l-23.2,4L6.8,6L30,2z M29.8,12.1c0.1,0,0.1,0,0.2,0s0.1,0,0.2,0L42,10v4.5c-1.1,0.8-5,3.5-12,3.5
+                                                    c-7,0-10.9-2.6-12-3.5V10L29.8,12.1z M18.4,28.7c0-0.6-0.4-1-1-1c-1.3,0-2-1.6-2-3.2c0-0.8,0.2-1.5,0.5-1.9
+                                                    c0.3-0.4,0.7-0.6,1.2-0.6c0.6,0,1-0.4,1-1v-4c2.1,1.3,6,3,12,3s9.9-1.8,12-3v4c0,0.6,0.4,1,1,1c0.5,0,0.9,0.2,1.2,0.6
+                                                    c0.3,0.5,0.5,1.2,0.5,1.9c0,1.5-0.7,3.2-2,3.2c-0.6,0-1,0.4-1,1c0,3.9-2.6,7.1-5.5,9.2c-0.1,0.1-0.3,0.1-0.4,0.2
+                                                    c-2.1,1.4-4.3,2.2-5.7,2.2c-1.4,0-3.7-0.8-5.9-2.3c0,0-0.1-0.1-0.1-0.1C21.1,35.9,18.4,32.7,18.4,28.7z M30,42.3
+                                                    c1.6,0,4.2-0.9,6.6-2.4l4.8,1.3L30,52.5L18.6,41.2l4.8-1.3C25.8,41.5,28.4,42.3,30,42.3z M58,58H2v-5.3c0-3.8,2.4-7.2,5.8-8.5
+                                                    l8.6-2.4L30,55.4l13.6-13.5l8.5,2.3c3.5,1.3,5.9,4.7,5.9,8.5V58z"></path>
+                                                <path fill="#231F20" d="M23.4,23.7c0-0.1,0-0.2,0-0.2c0.2-0.1,0.8-0.1,1.2-0.1l0.3,0l0.3,0c0.4,0,1,0,1.2,0c0,0,0,0.1,0,0.2
+                                                    c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1c0-0.7-0.2-1.2-0.6-1.6c-0.7-0.7-1.7-0.7-2.6-0.6l-0.3,0l-0.3,0c-0.9,0-1.9,0-2.6,0.6
+                                                    c-0.4,0.4-0.6,0.9-0.6,1.6c0,0.6,0.4,1,1,1C23,24.7,23.4,24.3,23.4,23.7z"></path>
+                                                <path fill="#231F20" d="M32.5,24.7c0.6,0,1-0.4,1-1c0-0.1,0-0.2,0-0.2c0.2-0.1,0.8-0.1,1.2-0.1l0.3,0l0.3,0c0.4,0,1,0,1.2,0
+                                                    c0,0,0,0.1,0,0.2c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1c0-0.7-0.2-1.2-0.6-1.6c-0.7-0.7-1.7-0.7-2.6-0.6l-0.3,0l-0.3,0
+                                                    c-0.9,0-1.9,0-2.6,0.6c-0.4,0.4-0.6,0.9-0.6,1.6C31.5,24.3,32,24.7,32.5,24.7z"></path>
+                                            </g>
+                                        </svg>
+                </div>
+                <div class="col-7"> Notable Alumni </div>
+            </div>
+            <!--Icon + Heading ends here-->
+            <div class="row">
+                <div class="col-12 slidablediv">
+                    <!--Every item position goes as per innerslidediv IMP-->
+                    <div class="innerslidediv" data-innerdivvalue="1" style="width: 400px">
+                        <div data-id="1" class="activediv">
+                            <div class="sliderimgs3" style="background-image: url('files/gal-gadot.jpg')"></div>
+                            <div class="sliderperson" style="left: 20px">
+                                <span>Name</span>
+                                <div>Year </div>
+                                <div>Designation</div>
+                            </div>
+                        </div>
+
+                        <div class="nonactive slidedata" data-id="2" style="transform: translate(400px,0)">
+                            <!--Define 2nd here -->
+                            <p class="slidedescription">Description of the need</p>
+                            <div class="sliderimgs" style="background-image: url('files/Kayla_Person1.jpg')"></div>
+                            <div class="sliderperson">
+                                <span>Name</span>
+                                <div>Designation</div>
+                            </div>
+                            <div class="replybtn"><button class="btn btn-info">Reply</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row colorchange">
+                <div class="col-6 m-0 borderclass"></div>
+                <div class="col-6"></div>
+            </div>
+            <div class="row p-3 justify-content-center slidingdivlinks">
+                <div class="col-3">
+                    <div class="prev-item"><i class=" btn fa fa-arrow-left" onclick="moveprev(1)"></i> </div>
+                </div>
+                <div class="col-4">
+                    <a href="">View All</a>
+                </div>
+                <div class="col-3">
+                    <div class="next-item"><i class=" btn fa fa-arrow-right" onclick="movenext(1)"></i> </div>
+                </div>
+            </div>
+        </div>
+       </div>
+</div>
+<div class="container-fluid mt-5" id="socialcontainer">
+    <div class="row justify-content-center">
+        <div class="socialmainhead">ADGITM Social</div>
+    </div>
+    <!--Icons Row-->
+    <div class="mt-5 row justify-content-center">
+        <div class="col-2 iconsets"><div id="fb" align="center"><i title="Fb page" class="fab fa-facebook-f" ></i></div> </div>
+        <div class="col-2 iconsets"><div id="twitter" align="center"> <i class="fab fa-twitter"></i></div> </div>
+        <div class="col-2 iconsets"><div id="instagram" align="center"> <i class="fab fa-instagram"></i> </div></div>
+        <div class="col-2 iconsets"><div id="youtube" align="center"> <i class="fab fa-youtube"></i> </div></div>
+
+    </div>
+    <!--Streaming Data From different Social Media-->
+    <div class="row mt-5 justify-content-center" style="height: 400px">
+        <div class="col-12 col-sm-4 pr-0" >
+            <div id="socialdiv1">
+                <div id="socialimg">
+                    <img src="files/socialmedia2.jpg">
+                </div>
+                 <div id="socialinnerdiv1">
+                     <div class="socialdivcontent-slideup" >
+                    <span > @twitter feed</span>
+                         <div class="socialicon" align="center"> <span ><i class="fab fa-twitter"></i> </span></div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-3">
+            <div class="row p-0" style="height: 400px">
+                <div class="col-12 p-0">
+                    <div class="socialmediadiv" style="height: 200px">
+                        <img src="files/socialmedia1.jpeg" width="100%" height="100%">
+                        <div class="socialmediahoverable">
+                            <div class="socialdivcontent-slideup" >
+                                <span > @Facebook feed</span>
+                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                <div class="col-12 p-0" style="height: 200px">
+                    <div class="socialmediadiv" style="height: 200px">
+                        <img src="files/socialmedia3.jpg" width="100%" height="100%">
+                        <div class="socialmediahoverable">
+                            <div class="socialdivcontent-slideup" >
+                                <span > @Facebook feed</span>
+                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row" style="height: 400px">
+                <div class="col-12" style="height: 200px">
+
+                    <div class="socialmediadiv" style="height: 200px">
+                        <div class="socialdivendpart">Content
+                            <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 10px" ><i class="fab fa-facebook-f"></i> </span>
+                        </div>
+                        <div class="socialmediahoverable">
+                            <div class="socialdivcontent-slideup" >
+                                <span > @Facebook feed</span>
+                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12" style="height: 200px">
+
+                    <div class="socialmediadiv" style="height: 200px">
+                        <div class="socialdivendpart">Content
+                        <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 0" ><i class="fab fa-twitter"></i> </span>
+                        </div>
+                        <div class="socialmediahoverable">
+                            <div class="socialdivcontent-slideup" >
+                                <span > @Facebook feed</span>
+                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+<footer id="footer">
+        <div class="container">
+            <div class="info">
+                <h5 class="info-title">
+                    Browse
+                </h5>
+                <nav class="info-links">
+                    <ul>
+                        <li><a href="">By Search</a></li>
+                        <li><a href="">By Map</a></li>
+                        <li><a href="">By Resources</a></li>
+                        <li><a href="">Your College Coordinator</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="info">
+                <h5 class="info-title">
+                    About
+                </h5>
+                <nav class="info-links">
+                    <ul>
+                        <li><a href="">About ADGITM</a></li>
+                        <li><a href="">ADGITM - Office Bearers</a></li>
+                        <li><a href="">ADGITM - Alumni Chapters</a></li>
+                        <li><a href="">Contact Us</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="info">
+                <h5 class="info-title">
+                    Privacy Policy
+                </h5>
+                <nav class="info-links">
+                    <ul>
+                        <li><a href="">Terms of use</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="copyright">
+                <p>2018 copyright@ADGITM Alumni</p>
+            </div>
+
+        <div id="endoffooter"></div>
+        </div>
+    </footer>
+    <!--    footer end-->
+
+</body>
+</html>

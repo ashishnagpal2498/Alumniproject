@@ -1,0 +1,19 @@
+.footerheading{
+color: cornflowerblue;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+.footerlinks{
+    font-size: 14px;
+}
+.footerlinks:hover{
+    color: #1b86bc;
+    cursor: pointer;
+}
+.footeraddrow{
+    border-top: 1px lightgray solid;
+}
+.footeradd{
+    border-right: 1px solid white;
+}

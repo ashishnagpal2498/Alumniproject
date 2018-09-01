@@ -1,0 +1,180 @@
+
+
+body{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+#nieclogo img{
+    height: 95px;
+    width: 120px;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+
+
+#nieclogo{
+    display: inline-block;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#headertop{
+    background-color: #fff;
+   }
+
+#headertop .social-links ul{
+    float: right;
+    }
+
+#headertop .social-links ul li{
+    float: left;
+    padding-left: 10px;
+    list-style-type: none;
+    margin-top: 23px;
+   }
+
+
+#headertop .social-links ul li a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.2em
+    
+}
+
+/*End Of Upper Header Which includes links For contact*/
+
+.icon{
+    transition: background-color 0.4s;
+}
+
+.icon:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+
+/*header bottom start*/
+
+
+.menu {
+    z-index: 1;
+  overflow: hidden;
+  background-color:darkblue;
+  font-family: Arial;
+}
+
+
+
+.menu a {
+    z-index: 1;
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.dropdown-own { z-index: 1;
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown-own .dropbtn {
+    z-index: 1;
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.menu a:hover, .dropdown-own:hover .dropbtn {
+  background-color: skyblue;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black
+}
+
+.dropdown-own:hover .dropdown-content {
+    z-index: 1;
+  display: block;
+}
+
+@media screen and (min-width:550px){
+    .social-links a{
+        display: inline-block;
+    }
+    
+   .social-links {
+        float: right;
+    }
+   
+    
+}
+@media screen and (min-width: 680px) {
+    .universalheader{
+        display: none;
+    }
+}
+@media screen and (max-width: 680px){
+    .menu a{
+        display: none;
+    }
+    .dropbtn{
+        display: none;
+    }
+    .universalheader{
+        display: block;
+        float: right;
+        font-size: 20px;
+        color: white;
+    }
+    .universalheader:hover{
+        cursor: pointer;
+    }
+    .universalheader:hover{
+        display: block;
+    }
+}
+
+
+
+
+
+

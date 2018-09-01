@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="782" column="14" lean-forward="true" selection-start-line="782" selection-start-column="14" selection-end-line="782" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="710" column="26" lean-forward="true" selection-start-line="710" selection-start-column="26" selection-end-line="710" selection-end-column="26" />
               <folding>
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/socialpage.css" />
         <option value="$PROJECT_DIR$/stylesheetforheader.css" />
         <option value="$PROJECT_DIR$/Extra Content.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styleforfooter.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -227,15 +227,15 @@
       <option name="presentableId" value="Default" />
       <updated>1535000157070</updated>
       <workItem from="1535000158728" duration="78007000" />
-      <workItem from="1535445638861" duration="34086000" />
+      <workItem from="1535445638861" duration="35043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112093000" />
+    <option name="totallyTimeSpent" value="113050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17931548" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -244,7 +244,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.39379084" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="782" column="14" lean-forward="true" selection-start-line="782" selection-start-column="14" selection-end-line="782" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="710" column="26" lean-forward="true" selection-start-line="710" selection-start-column="26" selection-end-line="710" selection-end-column="26" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />

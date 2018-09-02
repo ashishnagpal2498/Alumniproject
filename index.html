@@ -7,12 +7,12 @@
     <script src="Bootstrap/dist/js/bootstrap.js"></script>
     <link href="Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="frontpage_S.css" rel="stylesheet">
-    <link href="index_frontpage2.css" rel="stylesheet">
+    <link href="homepage_header_img_eventsdivs.css" rel="stylesheet">
+    <link href="Alumni_needs_jobDivs.css" rel="stylesheet">
     <link href="socialpage.css" rel="stylesheet">
 <link href="footermap.css" rel="stylesheet">
-    <link href="alumni_Stylesheet.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheetforheader.css">
+    <link href="Success_Stories_alumni.css" rel="stylesheet">
+    <link rel="stylesheet" href="homepage_header_navbars.css">
     <link rel="stylesheet" href="styleforfooter.css">
     <script>
         window.onload=()=>{
@@ -172,13 +172,11 @@
 </div>
 
 
-
 <!--Header ends here-->
+<!--Background frontpage Image -->
 <div class="container-fluid">
     <div class="row">
         <div id="imagediv" >
-
-            <!--<div id="centretext" ><span id="centertextspan">Welcome To Alumni</span></div>-->
         </div>
     </div>
     <!--Row for events and news-->
@@ -200,7 +198,7 @@
                 </div>
                 <div class="col-12 p-3">News Description</div>
             </div>
-            <div class="row p-2 justify-content-center">
+            <div class="row p-2 justify-content-center viewallbtn">
                 <a href="">View All</a>
             </div>
         </div>
@@ -212,11 +210,13 @@
             </div>
             <div class="row dynamicdivrow">
                <div class="col-5 p-3 eventdate">
+                   <div class="row">
                    <div class="col-12 newsdate">
                        Day
                    </div>
                    <div class="col-12 p-2">
                        23/4/2018
+                   </div>
                    </div>
                </div>
                 <div class="col-7 p-3">
@@ -230,11 +230,13 @@
 
             <div class="row dynamicdivrow">
                 <div class="col-5 p-3 eventdate">
+                    <div class="row">
                     <div class="col-12 newsdate">
                         Day
                     </div>
                     <div class="col-12 p-2">
                         23/4/2018
+                    </div>
                     </div>
                 </div>
                 <div class="col-7 p-3">
@@ -246,7 +248,7 @@
                 </div>
             </div>
 
-            <div class="row p-2 justify-content-center">
+            <div class="row p-2 justify-content-center viewallbtn">
                 <a href="">View All</a>
             </div>
         </div>
@@ -260,27 +262,30 @@
             <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-5 col-md-8 fbook"><i class="fab fa-facebook-f"></i> Connect with facebook </div> </div>
             <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-5 col-md-8 linkdin"><i class="fab fa-linkedin"></i> Connect with LinkedIn</div> </div>
             <div class="row p-2 mt-2 justify-content-center" style="border-bottom: 1px gray solid"><div class="col-5 col-md-8  emailconnect">Connect with Email</div> </div>
-            <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-8 verifystatement">Login with any medium will lead to verification by mentors/admin</div> </div>
+            <div class="row p-2 mt-4 mb-2  justify-content-center"><div class="col-8 verifystatement viewallbtn">Login with any medium will lead to verification by mentors/admin</div> </div>
         </div>
     </div>
 </div>
+
+
+<!--Success Stories Container -->
 <div class="container-fluid mt-5" style="margin-top: 70px;border-top: 2px gray solid">
     <div class="row justify-content-center m-4 mb-2" >
-      <div class="col-10 sucessheadbackground" align="center"> <span id="successhead" > Our Success Stories</span> </div>
+      <div class="col-12 col-sm-10 sucessheadbackground" align="center"> <span id="successhead" > Our Success Stories</span> </div>
     </div>
-    <div class="row ml-5 mr-5">
-        <div class="col-10">
-        <div class="successstorydiv">
-            <div class="successstorymover">
+    <div class="row ml-lg-5 mr-lg-5 ml-md-2 mr-md-2 justify-content-center">
+        <div class="col-8 col-sm-10">
+        <div class="row successstorydiv justify-content-center">
+            <div class="col-12 successstorymoverdiv">
               <!--Cse Dept-->
-                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise">
-                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >CSE</div>
+                <div class="col-10 col-md-5 col-lg-3 m-3 p-0 alumnideptwise" id="cse-branch" >
+                    <div align="center" class="alumnidiv-heading" >CSE</div>
             <div class="alumni-div">
         <div id="carouselCSE"  class=" carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" >
                     <div class="successstoryitem">
-                    <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                    <img  src="files/demoimg4.jpg" class="carousel-img-settings" >
                         <div class="successstoryitem-content">
                             The text behind the picture will be displayed here.
                         </div>
@@ -288,7 +293,7 @@
                 </div>
                 <div class="carousel-item ">
                     <div class="successstoryitem">
-                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                        <img  src="files/demoimg2.jpg" class="carousel-img-settings" >
                         <div class="successstoryitem-content">
                             The text behind the picture will be displayed here.
                         </div>
@@ -296,7 +301,7 @@
                 </div>
                 <div class="carousel-item ">
                     <div class="successstoryitem">
-                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                        <img  src="files/demoimg3.jpg" class="carousel-img-settings" >
                         <div class="successstoryitem-content">
                             The text behind the picture will be displayed here.
                         </div>
@@ -316,14 +321,14 @@
     </div>
 
                 <!--IT branch-->
-                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise" style="left: 300px">
-                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >IT</div>
+                <div class="col-10 col-md-5 col-lg-3 m-3 p-0 alumnideptwise" id="it-branch" >
+                    <div align="center" class="alumnidiv-heading" >IT</div>
                     <div class="alumni-div">
                         <div id="carouselIT"  class=" carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active" >
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg4.jpg" class="carousel-img-settings" >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -331,7 +336,7 @@
                                 </div>
                                 <div class="carousel-item ">
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg2.jpg" class="carousel-img-settings" >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -339,7 +344,7 @@
                                 </div>
                                 <div class="carousel-item ">
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg3.jpg" class="carousel-img-settings" >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -359,14 +364,14 @@
                 </div>
 
                 <!--ECE Branch-->
-                <div class="col-4 col-md-2 m-3 p-0 alumnideptwise" style="left: 600px">
-                    <div align="center" style="font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px" >ECE</div>
+                <div class="col-10 col-md-5 col-lg-3 m-3 p-0 alumnideptwise" id="ece-branch" >
+                    <div align="center" class="alumnidiv-heading" >ECE</div>
                     <div class="alumni-div">
                         <div id="carouselECE"  class=" carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active" >
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg4.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg4.jpg" class="carousel-img-settings" >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -374,7 +379,7 @@
                                 </div>
                                 <div class="carousel-item ">
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg2.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg2.jpg" class="carousel-img-settings" >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -382,7 +387,7 @@
                                 </div>
                                 <div class="carousel-item ">
                                     <div class="successstoryitem">
-                                        <img  src="files/demoimg3.jpg" height="150px" width="100%" >
+                                        <img  src="files/demoimg3.jpg" class="carousel-img-settings"  >
                                         <div class="successstoryitem-content">
                                             The text behind the picture will be displayed here.
                                         </div>
@@ -401,17 +406,102 @@
                     </div>
                 </div>
 
+         <!--Mechanical Dept-->
+                <div class="col-10 col-md-5 col-lg-3 m-3 p-0 alumnideptwise nonactive" id="mech-branch" >
+                    <div align="center" class="alumnidiv-heading" >MECH</div>
+                    <div class="alumni-div">
+                        <div id="carouselMECH"  class=" carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" >
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg4.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg2.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg3.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev movementbtns" href="#carouselMECH" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next movementbtns" href="#carouselMECH" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Civil Department-->
+                <div class="col-10 col-md-5 col-lg-3 m-3 p-0 alumnideptwise nonactive" id="civil-branch" >
+                    <div align="center" class="alumnidiv-heading" >CIVIL</div>
+                    <div class="alumni-div">
+                        <div id="carouselCIVIL"  class=" carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" >
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg4.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg2.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="successstoryitem">
+                                        <img  src="files/demoimg3.jpg" class="carousel-img-settings" >
+                                        <div class="successstoryitem-content">
+                                            The text behind the picture will be displayed here.
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev movementbtns" href="#carouselCIVIL" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next movementbtns" href="#carouselCIVIL" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <!--End Of success Mover Here-->
-            <div id="successmoverprevbtn"><span><i class="fa fa-arrow-left"></i> </span></div>
-            <div id="successmovernextbtn"><span><i class="fa fa-arrow-right"></i> </span></div>
+            <div id="successmoverprevbtn" class="successmoverbtns"><span><i class="fa fa-arrow-left"></i> </span></div>
+            <div id="successmovernextbtn" class="successmoverbtns"><span><i class="fa fa-arrow-right"></i> </span></div>
 
         </div>
         </div>
 </div>
     <div class="row justify-content-center m-4 mb-2" >
-        <div class="col-10 sucessheadbackground" style="height: 40px" align="center"> </div>
+        <div class="col-12 col-sm-10 sucessheadbackground" style="height: 40px" align="center"> </div>
     </div>
 </div>
 
@@ -419,7 +509,7 @@
 <!--Cards For alumni  Students and needs-->
 <div class="container-fluid">
     <div class="row justify-content-center p-3 m-3 ">
-        <div class="col-12 col-md-4 p-2"><span class="slidermainheading">From The Desk</span></div>
+        <div class="col-12 col-md-6 p-2"><span class="slidermainheading">From The Desk</span></div>
     </div>
     <!--Outer Row For dynamic Divs-->
     <div class="row justify-content-center mt-5">

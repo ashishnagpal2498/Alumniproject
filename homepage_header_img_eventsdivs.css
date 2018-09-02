@@ -9,41 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#uppernavrow{
-    border-bottom: 1px gray solid;
-    color: whitesmoke;
-
-}
-#centretext{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    font-size: 30px;
-
-}
-
-#centertextspan{
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: lightblue;
-    transition: transform 1s,background-color 1s;
-    border-radius: 100px;
-}
-#centertextspan:hover{
-    cursor: pointer;
-    background-color: #71dd8a;
-    transform: scaleY(2);
-
-}
-#careerdrpdown #careermenu{
-    display: none;
-}
-#careerdrpdown:hover #careermenu{
-    display: block;
-}
+/*Divs for events news and signup*/
 .eventdivs{
     margin-top: -70px;
 
@@ -73,6 +39,9 @@
     font-size: 17px;
     border-right: 1px solid gray;
 }
+.viewallbtn{
+    height: 50px;
+}
 .fbook{
     color: white;
     background-color: #43609c;
@@ -93,5 +62,6 @@
 .verifystatement{
     font-size: 12px;
     color: #4e555b;
+    text-overflow: clip;
 
 }

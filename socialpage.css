@@ -38,8 +38,8 @@
     background-color: red;
 }
 #socialimg{
-   width: 388px;
-    height: 400px;
+   width: 100%;
+    height: auto;
     overflow: hidden;
     /*background-position: 0% 0%;*/
     /*background-image: none;*/
@@ -49,7 +49,7 @@
 #socialdiv1{
     position: relative;
     cursor: pointer;
-    width: 388px;
+    width: 100%;
     overflow: hidden;
 }
 #socialinnerdiv1{
@@ -93,7 +93,7 @@
     transform: rotate(-45deg);
 }
 #socialdiv1:hover #socialinnerdiv1{
-    height: 50%;
+    height: 40%;
     visibility: visible;
 }
 
@@ -122,4 +122,13 @@
     text-transform: capitalize;
     font-size: 18px;
     background-color: #F7F9F9;
+}
+/*Media Query for social divs */
+@media screen and (max-width: 575px){
+    .specialsocialdivs{
+        display: none;
+    }
+    #socialinnerdiv1{
+        height: 40%;
+    }
 }

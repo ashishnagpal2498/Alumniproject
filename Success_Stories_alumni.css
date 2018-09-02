@@ -76,20 +76,23 @@
     }
     #mech-branch{
         transform: translateX(300px);
-        top: -400px;
+        top: -500px;
         display: block;
     }
     #civil-branch{
         transform: translateX(0);
-        top: -500px;
+        top: -600px;
         display: block;
     }
     .successstorymoverdiv{
-        height: 1400px;
+        height: 1300px;
     }
     .successmoverbtns{
         display: none;
     }
+}
+.successmoverbtns:hover{
+    cursor: pointer;
 }
 @media screen and (max-width: 768px){
     .alumnideptwise{

@@ -12,9 +12,17 @@
     <link href="socialpage.css" rel="stylesheet">
 <link href="footermap.css" rel="stylesheet">
     <link href="Success_Stories_alumni.css" rel="stylesheet">
-    <link rel="stylesheet" href="homepage_header_navbars.css">
     <link rel="stylesheet" href="styleforfooter.css">
+    <link href="homepage_header_navbaritems.css" rel="stylesheet">
     <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
         window.onload=()=>{
             // alert('Recommended To open as Desktop View For now')
             let dataids=$("div[data-id='2']")[0];
@@ -62,10 +70,8 @@
     </script>
 </head>
 <body>
-<div id="headertop">
-    <div id="nieclogo">
-        <img src="files/logo-adgitm-small2.jpg" alt="ADGITM">
-    </div>
+<div class="social">
+    <a class="adgitmlogo" href="#"><img id="headericonimg" src="files/logo-adgitm-small2.jpg" alt="adgitmlogo"></a>
 
     <div class="social-links">
         <ul>
@@ -100,77 +106,61 @@
 </div>
 
 
-<div id="headerbottom">
-    <div class="menu">
 
-        <div class="dropdown-own">
-            <button class="dropbtn">Projects<i class="fa fa-angle-down"></i></button>
-            <div class="dropdown-content">
-                <a href="">Student Enrichment Fund</a>
-            </div>
-        </div>
 
-        <div class="dropdown-own">
-            <button class="dropbtn">Directory<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">Search Alumni</a>
-                <a href="">Search Faculty</a>
-                <a href="">By Map</a>
-                <a href="">By Resources</a>
-            </div>
-        </div>
 
-        <div class="dropdown-own">
-            <button class="dropbtn">Careers<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">Jobs</a>
-                <a href="">Internship</a>
-                <a href="">Mentorship</a>
-            </div>
-        </div>
 
-        <div class="dropdown-own">
-            <button style="overflow: visible" class="dropbtn">Events<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">All Events</a>
-                <a href="">Alumni Calender</a>
-                <a href="">Chapter</a>
-            </div>
-        </div>
+<div class="topnav" id="myTopnav">
+    <a href=""></a>
+    <a href="#home">Home</a>
 
-        <div class="dropdown-own">
-            <button class="dropbtn">Benefits<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">Online Courses</a>
-                <a href="">Alumni Services</a>
-            </div>
-        </div>
-
-        <div class="dropdown-own">
-            <button class="dropbtn">More<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">Glimpse of Alumni</a>
-                <a href="">News and Updates</a>
-                <a href="">Volunteer Opportunities</a>
-                <a href="">FAQs</a>
-            </div>
-        </div>
-
-        <div class="dropdown-own">
-            <button class="dropbtn">Login<i class="fa fa-angle-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="">Login</a>
-            </div>
+    <div class="dropdown-own">
+        <button  class="dropbtn">Directory<i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Search Alumni</a>
+            <a href="">Search Faculty</a>
+            <a href="">By Map</a>
+            <a href="">By Resources</a>
         </div>
     </div>
-</div>
 
+    <div class="dropdown-own">
+        <button class="dropbtn">Careers<i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Jobs</a>
+            <a href="">Internship</a>
+            <a href="">Mentorship</a>
+        </div>
+    </div>
+
+    <div class="dropdown-own">
+        <button class="dropbtn">Events<i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">All Events</a>
+            <a href="">Alumni Calender</a>
+            <a href="">Chapter</a>
+        </div>
+    </div>
+
+    <div class="dropdown-own">
+        <button  class="dropbtn">More<i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="">Glimpse of Alumni</a>
+            <a href="">News and Updates</a>
+            <a href="">Volunteer Opportunities</a>
+            <a href="">FAQs</a>
+        </div>
+    </div>
+
+    <a href="#home">Login</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+</div>
 
 <!--Header ends here-->
 <!--Background frontpage Image -->
@@ -742,12 +732,13 @@
         <div class="col-2 iconsets"><div id="youtube" align="center"> <i class="fab fa-youtube"></i> </div></div>
 
     </div>
+    <!--Social Media Stuff Divs -->
     <!--Streaming Data From different Social Media-->
-    <div class="row mt-5 justify-content-center" style="height: 400px">
-        <div class="col-12 col-sm-4 pr-0" >
+    <div class="row mt-5 justify-content-center" style="height: auto">
+        <div class="col-8 col-md-6 col-lg-4 pr-3" >
             <div id="socialdiv1">
                 <div id="socialimg">
-                    <img src="files/socialmedia2.jpg">
+                    <img src="files/socialmedia2.jpg" width="100%" height="auto">
                 </div>
                  <div id="socialinnerdiv1">
                      <div class="socialdivcontent-slideup" >
@@ -757,11 +748,11 @@
                  </div>
             </div>
         </div>
-        <div class="col-6 col-sm-3">
-            <div class="row p-0" style="height: 400px">
-                <div class="col-12 p-0">
+        <div class="col-12 col-md-6 col-lg-3 specialsocialdivs">
+            <div class="row p-0" style="height: auto">
+                <div class="col-6 col-md-12 p-0 pt-md-0 pt-sm-3 pl-sm-3 pr-sm-3">
                     <div class="socialmediadiv" style="height: 200px">
-                        <img src="files/socialmedia1.jpeg" width="100%" height="100%">
+                        <img src="files/socialmedia1.jpeg" width="100%" height="auto">
                         <div class="socialmediahoverable">
                             <div class="socialdivcontent-slideup" >
                                 <span > @Facebook feed</span>
@@ -770,9 +761,9 @@
                         </div>
                     </div>
             </div>
-                <div class="col-12 p-0" style="height: 200px">
+                <div class="col-6 col-md-12 p-0 pt-md-3 pt-sm-3 pl-sm-3 pr-sm-3" style="height: 200px">
                     <div class="socialmediadiv" style="height: 200px">
-                        <img src="files/socialmedia3.jpg" width="100%" height="100%">
+                        <img src="files/socialmedia3.jpg" width="100%" height="auto">
                         <div class="socialmediahoverable">
                             <div class="socialdivcontent-slideup" >
                                 <span > @Facebook feed</span>
@@ -784,39 +775,32 @@
                 </div>
             </div>
         </div>
-        <div class="col-3">
-            <div class="row" style="height: 400px">
-                <div class="col-12" style="height: 200px">
-
-                    <div class="socialmediadiv" style="height: 200px">
-                        <div class="socialdivendpart">Content
+        <div class="col-6 col-sm-12 col-lg-3 mt-lg-0 mt-md-2 specialsocialdivs">
+            <div class="row " style="height: auto">
+                <div class="col-12 col-sm-6 col-lg-12 pt-sm-2 pt-lg-0" style="height: 200px">
+                        <div class="carousel slide" data-ride="carousel" style="height: 100%;">
+                        <div class="carousel-inner" style="height: 100%">
+                        <div class="socialdivendpart carousel-item active">Content
                             <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 10px" ><i class="fab fa-facebook-f"></i> </span>
                         </div>
-                        <div class="socialmediahoverable">
-                            <div class="socialdivcontent-slideup" >
-                                <span > @Facebook feed</span>
-                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                            <div class="socialdivendpart carousel-item">Content2
+                                <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 10px" ><i class="fab fa-facebook-f"></i> </span>
                             </div>
                         </div>
-                    </div>
-
-
+                        </div>
                 </div>
-                <div class="col-12" style="height: 200px">
+                <div class="col-12 col-sm-6 col-lg-12 pt-sm-2 pt-lg-0 mt-lg-3" style="height: 200px">
 
-                    <div class="socialmediadiv" style="height: 200px">
-                        <div class="socialdivendpart">Content
-                        <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 0" ><i class="fab fa-twitter"></i> </span>
-                        </div>
-                        <div class="socialmediahoverable">
-                            <div class="socialdivcontent-slideup" >
-                                <span > @Facebook feed</span>
-                                <div class="socialicon" style="background-color: dodgerblue;" align="center"> <span ><i class="fab fa-facebook-f"></i> </span></div>
+                    <div class="carousel slide" data-ride="carousel" style="height: 100%;">
+                        <div class="carousel-inner" style="height: 100%">
+                            <div class="socialdivendpart carousel-item active">Content
+                                <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 10px" ><i class="fab fa-facebook-f"></i> </span>
+                            </div>
+                            <div class="socialdivendpart carousel-item">Content2
+                                <span style="font-size: 25px;color: black ;position: absolute;bottom: 0;right: 10px" ><i class="fab fa-facebook-f"></i> </span>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

@@ -4,12 +4,15 @@
 }
 .socialmainhead{
     align-content: center;
-    color: #0c5460;
+    color:darkblue;
     font-size: 50px;
-    text-decoration: underline double greenyellow;
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightblue;
+    border: 2px solid;
 }
 .iconsets{
-    color: darkgray;
+    color:darkblue;
     font-size: 40px;
 }
 #fb,#twitter,#instagram,#youtube{
@@ -25,17 +28,17 @@
 .iconsets:hover #fb{
     color: white;
     cursor: pointer;
-    background-color: dodgerblue;
+    background-color: rgb( 0, 172, 237);
 }
 .iconsets:hover #instagram{
-    color: rgb( 69, 142, 255);
+    color:white;
     cursor: pointer;
-    background-color: rgb(251, 57, 88);
+    background-color:  rgb( 0, 172, 237);
 }
 .iconsets:hover #youtube{
     color: white;
     cursor: pointer;
-    background-color: red;
+    background-color: rgb( 0, 172, 237);
 }
 #socialimg{
    width: 100%;

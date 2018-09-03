@@ -1,7 +1,5 @@
 /*header top start*/
-body{
-    background-color: rgba(0,0,0,0.1);
-}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -46,16 +44,18 @@ ul{
     background-color: rgba(0,0,0,0.1);
 }
 
-#headericonimg{
+img{
     height: 99px;
     width: 120px;
     margin-top: 8px;
     margin-left: 8px;
     margin-bottom: 8px;
+    border: 1px solid transparent;
+    border-radius: 20px;
     
     }
 
-.nieclogo{
+.adgitmlogo{
     display: inline-block;
     
    }
@@ -91,9 +91,9 @@ ul{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -101,6 +101,7 @@ ul{
 
 .topnav .icon {
     display: none;
+    
 }
 
 
@@ -170,10 +171,14 @@ ul{
     display: block;
 }
 
+.search{
+    margin-right: 110px;
+}
 
 
-@media screen and (max-width: 535px) {
-  .topnav a, .dropdown-own .dropbtn {
+
+@media screen and (max-width: 665px) {
+  .topnav a:not(:first-child), .dropdown-own .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -183,7 +188,7 @@ ul{
 }
 
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 665px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -195,11 +200,19 @@ ul{
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown-own {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown-own 
+    {
+        float: none;
+    }
+  .topnav.responsive .dropdown-content {
+      position: relative;
+    }
+    
   .topnav.responsive .dropdown-own .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
+    
+ 
 }

@@ -1,14 +1,16 @@
 #successhead{
     font-size: 35px;
-    text-decoration: underline solid #b1dfbb;
     font-family: "Myanmar Text";
+    font-weight: bold;
+    
 
 }
 .sucessheadbackground{
-    padding: 10px;
+    padding: 25px;
     border-radius: 3px;
     background-color: #1b86bc;
     border: 1px solid black;
+    
 }
 .successstorydiv{
     position: relative;
@@ -35,9 +37,16 @@
     height: 350px;
 }
 .alumnidiv-heading{
-    font-family: Candara;letter-spacing: 2px;border-top: #efa2a9 1px solid;
-    border-bottom: #efa2a9 solid 1px;padding: 5px;background-color: rgb(127,127,127);
-    margin-bottom: 5px;color: white;text-decoration: #efa2a9 overline underline;font-size: 25px
+    font-family: Candara;
+    letter-spacing: 2px;
+    border-top: #efa2a9 1px solid;
+    border-bottom: #efa2a9 solid 1px;
+    padding: 5px;
+    background-color: lightskyblue;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px
 }
 .alumni-div{
     position: relative;

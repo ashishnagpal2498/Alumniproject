@@ -6,6 +6,7 @@
     font-style: italic;
     background-color: lightblue;
     border: 2px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .owncard{
 

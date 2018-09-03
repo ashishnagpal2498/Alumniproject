@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c7a356-5520-4a2d-8f63-7d5f24d2a084" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/files/adgitm_banner_new.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra Content.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/newbanner_ADGITM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/niec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/niec2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/niec_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage_header_img_eventsdivs.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage_header_img_eventsdivs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="164" column="23" lean-forward="true" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+            <state relative-caret-position="156">
+              <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
               <folding>
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -59,15 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footermap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footermap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homepage_header_navbaritems.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage_header_navbaritems.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage_header_img_eventsdivs.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage_header_img_eventsdivs.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage_header_img_eventsdivs.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -151,9 +135,9 @@
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/header_indexfile.css" />
         <option value="$PROJECT_DIR$/Success_Stories_alumni.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/homepage_header_navbaritems.css" />
         <option value="$PROJECT_DIR$/homepage_header_img_eventsdivs.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -268,25 +252,24 @@
       <option name="presentableId" value="Default" />
       <updated>1535000157070</updated>
       <workItem from="1535000158728" duration="78007000" />
-      <workItem from="1535445638861" duration="68854000" />
+      <workItem from="1535445638861" duration="69841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146861000" />
+    <option name="totallyTimeSpent" value="147848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19642857" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19642857" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.083333336" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.503268" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage_header_img_eventsdivs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footermap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -487,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="164" column="23" lean-forward="true" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+        <state relative-caret-position="156">
+          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -516,6 +492,13 @@
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage_header_img_eventsdivs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>

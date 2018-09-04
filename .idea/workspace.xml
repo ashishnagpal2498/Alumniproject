@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c7a356-5520-4a2d-8f63-7d5f24d2a084" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footermap.css" beforeDir="false" afterPath="$PROJECT_DIR$/footermap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage_header_navbaritems.css" beforeDir="false" afterPath="$PROJECT_DIR$/homepage_header_navbaritems.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleforfooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/styleforfooter.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="509" column="34" lean-forward="true" selection-start-line="509" selection-start-column="34" selection-end-line="509" selection-end-column="34" />
+            <state relative-caret-position="527">
+              <caret line="687" column="54" lean-forward="true" selection-start-line="687" selection-start-column="54" selection-end-line="687" selection-end-column="54" />
               <folding>
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#3;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,7 +34,6 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,7 +60,15 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +77,17 @@
       <file leaf-file-name="footermap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footermap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="527">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleforfooter.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleforfooter.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -77,8 +95,8 @@
       <file leaf-file-name="Alumni_needs_jobDivs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alumni_needs_jobDivs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="203">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,7 +104,7 @@
       <file leaf-file-name="socialpage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialpage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="17">
               <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
@@ -95,44 +113,8 @@
       <file leaf-file-name="homepage_header_navbaritems.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage_header_navbaritems.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Success_Stories_alumni.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Success_Stories_alumni.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage_header_img_eventsdivs.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homepage_header_img_eventsdivs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gitbranchcreated" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitbranchcreated">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleforfooter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styleforfooter.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="104">
+              <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -160,15 +142,15 @@
         <option value="$PROJECT_DIR$/gitbranchcreated" />
         <option value="$PROJECT_DIR$/frontpage_S.css" />
         <option value="$PROJECT_DIR$/headerandfooter.html" />
-        <option value="$PROJECT_DIR$/styleforfooter.css" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/header_indexfile.css" />
         <option value="$PROJECT_DIR$/Success_Stories_alumni.css" />
         <option value="$PROJECT_DIR$/homepage_header_img_eventsdivs.css" />
-        <option value="$PROJECT_DIR$/footermap.css" />
         <option value="$PROJECT_DIR$/socialpage.css" />
-        <option value="$PROJECT_DIR$/homepage_header_navbaritems.css" />
         <option value="$PROJECT_DIR$/Alumni_needs_jobDivs.css" />
+        <option value="$PROJECT_DIR$/footermap.css" />
+        <option value="$PROJECT_DIR$/styleforfooter.css" />
+        <option value="$PROJECT_DIR$/homepage_header_navbaritems.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -285,25 +267,25 @@
       <updated>1535000157070</updated>
       <workItem from="1535000158728" duration="78007000" />
       <workItem from="1535445638861" duration="79867000" />
-      <workItem from="1536082551378" duration="371000" />
+      <workItem from="1536082551378" duration="9531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158245000" />
+    <option name="totallyTimeSpent" value="167405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19642857" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19642857" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.04738562" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3382353" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,19 +300,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19642857" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.18954249" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3382353" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -355,7 +337,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -382,7 +363,15 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -457,7 +446,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -484,7 +472,15 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,13 +517,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extra Content.html" />
-    <entry file="file://$PROJECT_DIR$/styleforfooter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script.js" />
     <entry file="file://$PROJECT_DIR$/headerandfooter.html" />
     <entry file="file://$PROJECT_DIR$/homepage_header_navbars.css" />
@@ -552,38 +541,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footermap.css">
+    <entry file="file://$PROJECT_DIR$/Alumni_needs_jobDivs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/socialpage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="17">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleforfooter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footermap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage_header_navbaritems.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alumni_needs_jobDivs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="104">
+          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="509" column="34" lean-forward="true" selection-start-line="509" selection-start-column="34" selection-end-line="509" selection-end-column="34" />
+        <state relative-caret-position="527">
+          <caret line="687" column="54" lean-forward="true" selection-start-line="687" selection-start-column="54" selection-end-line="687" selection-end-column="54" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#3;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -594,7 +590,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -621,7 +616,15 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -172,7 +172,15 @@ ul{
 }
 
 .search{
+    margin-left: 20px;
     margin-right: 110px;
+}
+.searchbox{
+
+    padding: 15px;
+    height: 60px;
+    width: auto;
+    background-color:skyblue ;
 }
 
 

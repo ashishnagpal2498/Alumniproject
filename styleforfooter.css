@@ -16,11 +16,11 @@ ul{
 
 /*footer start*/
 footer{
-    border-top: 5px solid white;
-    margin-top: 50px;
+    height: auto;
+    border-top: 2px solid white;
     background-color: midnightblue;
     color: skyblue;
-   
+margin-top: 70px;
 }
 
 footer p{
@@ -29,7 +29,7 @@ footer p{
 footer a{
     color: lightblue;
     display: inline-block;
-    padding: 10px 0px;
+    padding: 5px 0px;
     transition: all 0.2s;
     text-decoration: none;
    
@@ -49,7 +49,9 @@ footer .info-title{
 footer .copyright{
     text-align: center;
 }
-
+footer .info{
+    height: auto;
+}
 /*footer end*/
 
 
@@ -59,17 +61,17 @@ footer .copyright{
 
 /*media query for tablets*/
 
-@media screen and (min-width:750px){
+@media screen and (min-width:768px){
 
     .info{
         width: 45.5%;
         display: inline-block;
         margin: 1%;
-        height: 254px;
 
     }
-
-
+    footer{
+        margin-top: 0;
+    }
 }
 
 /*media query for laptops*/
